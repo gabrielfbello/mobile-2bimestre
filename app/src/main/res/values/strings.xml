@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppGrade</string>
+    <string name="title_register">Cadastrar</string>
+    <string name="title_grades">Notas</string>
+    <string name="title_averages">Médias</string>
+    <string name="empty_grades">Selecione algum aluno para ver as notas</string>
+</resources>

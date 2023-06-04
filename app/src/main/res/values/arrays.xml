@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subjects_array">
+        <item>Introdução à Programação</item>
+        <item>Estruturas de Dados</item>
+        <item>Banco de Dados</item>
+        <item>Desenvolvimento de Software</item>
+        <item>Engenharia de Software</item>
+        <item>Redes de Computadores</item>
+        <item>Interface Humano-Computador</item>
+        <item>Segurança da Informação</item>
+    </string-array>
+
+    <string-array name="terms_array">
+        <item>1º Bimestre</item>
+        <item>2º Bimestre</item>
+        <item>3º Bimestre</item>
+        <item>4º Bimestre</item>
+    </string-array>
+</resources>

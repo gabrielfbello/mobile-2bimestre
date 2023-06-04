@@ -1,0 +1,25 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_register">
+
+    <fragment
+        android:id="@+id/navigation_register"
+        android:name="com.gbello.appgrade.ui.register.RegisterGradeFragment"
+        android:label="@string/title_register"
+        tools:layout="@layout/fragment_register" />
+
+    <fragment
+        android:id="@+id/navigation_grades"
+        android:name="com.gbello.appgrade.ui.grades.GradesFragment"
+        android:label="@string/title_grades"
+        tools:layout="@layout/fragment_grades" />
+
+    <fragment
+        android:id="@+id/navigation_averages"
+        android:name="com.gbello.appgrade.ui.average.AverageFragment"
+        android:label="@string/title_averages"
+        tools:layout="@layout/fragment_averages" />
+
+</navigation>
